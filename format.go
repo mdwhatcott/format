@@ -1,4 +1,5 @@
-// package format is fmt spelled correctly, without ambiguities and archaic ambience.
+// package format is basically the fmt package, but spelled correctly, without
+// the AWOL characters, the ambiguities, and the archaic ambience.
 package format
 
 import (
