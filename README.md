@@ -22,6 +22,6 @@ There, I said it. I feel better now. Thanks.
 [1] Yes, of course there are (a few, and only a few) exceptions:
 
 - Single-letter variables used as counters in tightly scoped loops.
-- Well-definied acronyms from the field of computing and your specific problem domain.
+- Well-defined acronyms from the field of computing and your specific problem domain.
 
 That's about it. Oh, and maybe `err`. But every time you use it you should feel guilty for not just typing out a real word like `problem` (or even `error_` or `_error`)...
