@@ -8,12 +8,14 @@ import (
 )
 
 /////////////////////////////////////////////////////////////////////////////////
+
 // Error -> fmt.Errorf
 func Error(format string, items ...interface{}) error {
 	return fmt.Errorf(format, items...)
 }
 
 /////////////////////////////////////////////////////////////////////////////////
+
 // Write -> fmt.Fprint
 func Write(writer io.Writer, items ...interface{}) (written int, err error) {
 	return fmt.Fprint(writer, items...)
@@ -30,6 +32,7 @@ func WriteLine(writer io.Writer, items ...interface{}) (written int, err error) 
 }
 
 /////////////////////////////////////////////////////////////////////////////////
+
 // Read -> fmt.Fscan
 func Read(reader io.Reader, items ...interface{}) (elements int, err error) {
 	return fmt.Fscan(reader, items...)
@@ -46,6 +49,7 @@ func ReadLine(reader io.Reader, items ...interface{}) (elements int, err error) 
 }
 
 /////////////////////////////////////////////////////////////////////////////////
+
 // Print -> fmt.Print (Hey, what a coincidence!)
 func Print(items ...interface{}) (written int, err error) {
 	return fmt.Print(items...)
@@ -62,6 +66,7 @@ func PrintLine(items ...interface{}) (written int, err error) {
 }
 
 /////////////////////////////////////////////////////////////////////////////////
+
 // Scan -> fmt.Scan (Hey, what a coincidence!)
 func Scan(items ...interface{}) (elements int, err error) {
 	return fmt.Scan(items...)
@@ -78,6 +83,7 @@ func ScanLine(items ...interface{}) (elements int, err error) {
 }
 
 /////////////////////////////////////////////////////////////////////////////////
+
 // Compose -> fmt.Sprint
 func Compose(items ...interface{}) string {
 	return fmt.Sprint(items...)
@@ -94,6 +100,7 @@ func ComposeLine(items ...interface{}) string {
 }
 
 /////////////////////////////////////////////////////////////////////////////////
+
 // Decompose -> fmt.Sscan
 func Decompose(value string, items ...interface{}) (elements int, err error) {
 	return fmt.Sscan(value, items...)
