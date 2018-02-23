@@ -7,7 +7,7 @@ It's a mx btwn a jk a a jb, a srvs as my plea t th glng comnty t qt trng t b clv
 
 Translation:
 
-> `format` is basically the `fmt` package, but spelled correctly, without the AWOL characters, the ambiguities, and the archaic ambience.
+> `format` is basically the `fmt` package, but spelled correctly, without the AWOL characters, the ambiguities, and the archaic ambiance.
 
 > It's a mix between a joke and a jab, and serves as my plea to the golang community to quit trying to be clever and terse and learn to use complete words when naming stuff. Names are important. Code is typed once and read hundreds of times thereafter. It's worth the extra effort in the end to be specific.
 
